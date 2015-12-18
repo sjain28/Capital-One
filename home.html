@@ -1,0 +1,20 @@
+<div id = "intro"></div>
+
+<p> Select an option from below: </p>
+
+<nav id = "nav1"></nav>
+
+<script> //Can't make this work in home.js...document.getElementById("nav1") returns null...
+
+var introd = document.getElementById("intro");
+introd.innerHTML = "Welcome, " + localStorage.getItem('fname') + "!"; 
+
+var navbar = document.getElementById("nav1");
+navbar.innerHTML = 
+"<ul id='menu'>" +
+"<li><a href='index.html'>Index</a></li>" +
+"<li><a href='bills.html'>Bills</a></li>" +
+"<li><a href='about.html'>About</a></li>" +
+"</ul>";
+
+</script>

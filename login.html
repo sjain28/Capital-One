@@ -1,0 +1,32 @@
+<html>
+
+<nav id = "topmenu"></nav>
+<script src = "menubar.js"></script>
+
+
+    <head>
+        <title>Login page</title>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+		<script src ="login.js"></script>
+		<script data-main="lib/capital_one" src="lib/require-jquery.js"></script>
+        <form name="login" method = "post">
+            <label> First Name: </label>
+            <input type="text" name="fname"/>
+            <label> Last Name: </label>
+            <input type - "text" name = "lname"/>
+            <label>Customer ID: </label>
+            <input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+        <p> Sample Login Information: </p>
+        <ul id = "sample">
+        <li> 56241a12de4bf40b17112014	Stephen Amell</li>
+        <li> 56241a12de4bf40b17112015	Keanu Reeves </li>
+        <li> 56241a12de4bf40b17112016	Elizabeth Mitchell</li>
+        </ul>	
+
+    </body>
+</html>
