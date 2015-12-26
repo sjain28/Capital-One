@@ -1,8 +1,5 @@
-//var div = document.getElementById("nav1");
-//console.log(div);
+var introd = document.getElementById("intro");
 
+introd.innerHTML = "Welcome, " + localStorage.getItem('fname') + "!"; 
 
-//div.innerHTML = 'hello!';
-
-//This page doesn't recognize elements in home.html...why not?
 
